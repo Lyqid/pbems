@@ -8,14 +8,14 @@ package com.lyqid.pbems.dataaccess;
  * @author pasquale
  *
  */
-public abstract class R3ObjectDataAccess {
+public interface R3ObjectDataAccess {
 
-	public void getById();
-	public void getByIntersection();
-	public void getByDistances();
+	public void getRealityObjects();
+
+	public void describeObjects();
 	
+	public void putObject();
 	
-	public void put();
+	public void editObject();
 	
-	public void list();
 }
