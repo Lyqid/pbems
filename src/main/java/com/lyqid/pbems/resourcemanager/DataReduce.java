@@ -1,4 +1,4 @@
-package com.lyqid.pbems.resourcemanager.impl;
+package com.lyqid.pbems.resourcemanager;
 
 public interface DataReduce {
 
